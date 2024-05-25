@@ -1,5 +1,5 @@
 body {
-    background-color: #00d9ff;
+    background-color: #ff0000;
     font-size: 15px;
     font-family: 'Poppins';
     place-content: center;
@@ -18,15 +18,15 @@ body {
   
   button {
     padding: 10px 20px;
-    background-color: #0055b0;
-    color: #ff0000;
+    background-color: #000000;
+    color: #a70000d1;
     border: none;
     cursor: pointer;
     border-radius: 20px;
   }
   
   button:hover {
-    background-color: #0ef3ff;
+    background-color: #00f2ff;
   }
   
   section {
