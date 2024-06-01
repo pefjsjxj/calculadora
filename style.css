@@ -20,7 +20,7 @@ body {
 
 
 
-@media screen and(max-width: 579) {
+@media  (max-width: 579) {
   body { 
     
     background: #ee0979;  /* fallback for old browsers */
