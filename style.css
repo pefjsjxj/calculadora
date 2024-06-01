@@ -1,6 +1,6 @@
 ;
-  @media screen and(main-width570pxi){}
-    body {
+  @media screen and (max-width570pxi){}
+    body { 
       
       background: #200122;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
