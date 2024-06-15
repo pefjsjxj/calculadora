@@ -31,7 +31,11 @@ function potencia() {
   var resultado = num1 ^ num2;
   document.getElementById('resultado').innerText = resultado;
 }
-
+function raiz() {
+  var num1 = parseFloat(document.getElementById('num1').value);
+  var resultado = Math.sqrt(num1);
+  document.getElementById('resultado').innerText = resultado;
+}
 
 
 function modulo() {
