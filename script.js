@@ -27,9 +27,9 @@ function dividir() {
 }
 
 function potencia() {
-  // Ingresa aquí tu código.Math.pow(num1,num2);
-  // Ingresa aquí tu código.Math.pow (num1,mum2);
-  // Ingresa aquí tu código. ¡¡¡Pista!!!, así se realiza la potencia: Math.pow(num1, num2);
+ var num1 = parseFloat(document.getElementById ("num1").value);
+ var num2 = parseFloat(document.getElementById('num2').value);
+ var resultado = num1 ^ mnum2;
   document.getElementById('resultado').innerText = resultado;
 }
 
