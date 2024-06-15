@@ -29,7 +29,7 @@ function dividir() {
 function potencia() {
  var num1 = parseFloat(document.getElementById ("num1").value);
  var num2 = parseFloat(document.getElementById('num2').value);
- var resultado = num1 ^ mnum2;
+
   document.getElementById('resultado').innerText = resultado;
 }
 
@@ -43,7 +43,7 @@ function raiz() {
 function modulo() {
   var num1 = parseFloat(document.getElementById('num1').value);
   var num2 = parseFloat(document.getElementById('num2').value);
-  var resultado = num1 % num2;
+  var resultado = math.pow(num1,2)
   document.getElementById('resultado').innerText = resultado;
 }
 
