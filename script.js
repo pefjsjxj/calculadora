@@ -38,7 +38,6 @@ function raiz() {
   document.getElementById('resultado').innerText = resultado;
 }
 
-
 function modulo() {
   var num1 = parseFloat(document.getElementById('num1').value);
   var num2 = parseFloat(document.getElementById('num2').value);
